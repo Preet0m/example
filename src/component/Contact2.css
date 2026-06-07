@@ -1,0 +1,129 @@
+.c-contact {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background: #e1f2ff;
+  }
+  
+  .c-container {
+    max-width: 1170px;
+    padding: 0 1rem;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+  
+  .icon-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .contact-icon {
+    font-size: 40px;
+    color: #2e8bd7;
+    margin-right: 15px;
+  }
+  
+  .text {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text h5 {
+    font-weight: bold;
+    color: #03059c;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    word-wrap: break-word;
+    max-width: 350px;
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  form button {
+    width: 100%;
+    background: linear-gradient(45deg, #03059c, #2e8bd7);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: linear-gradient(45deg, #2e8bd7, #03059c);
+  }
+  
+  .map-column {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .c-contact-map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+  
+    .contact-icon {
+      font-size: 30px;
+    }
+  
+    .text h5 {
+      font-size: 18px;
+    }
+  
+    .text p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-icon {
+      font-size: 40px;
+    }
+  
+    .contact-icon-address {
+      font-size: 40px;
+    }
+  }
+  
